@@ -1,0 +1,106 @@
+.container-fluid.frame > .container-fluid {
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+.op-m-wrapper {
+    width: 940px;
+    margin: 0 auto 40px;
+}
+.op-m-title {
+    margin: 20px 0 10px;
+    font-size: 30px;
+    color: #37809F;
+    text-align: center;
+}
+.op-m-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.op-m-box__content {
+    width: 875px;
+    background-color: #fff;
+    border: 1px solid rgba(204, 204, 204, 0.4);
+    border-radius: 3px;
+}
+.op-m-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.op-m-info__title {
+    position: relative;
+    top: -1px;
+    width: 25%;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #37809F;
+}
+.op-m-info__text {
+    width: 74%;
+    font-size: 12px;
+    color: #222;
+}
+.op-m-info__text p {
+    margin: 0;
+}
+.op-m-info__text span,
+.op-m-info__text strong,
+.op-m-info__text a {
+    font-weight: 700;
+    color: inherit;
+}
+.op-m-box__title {
+    padding: 7px 25px 3px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #37809F;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+.op-m-box-table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.op-m-box-table__item {
+    width: 25%;
+    padding: 15px 25px 20px;
+    border-right: 1px solid rgba(204, 204, 204, 0.4);
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+    font-size: 12px;
+    color: #222;
+}
+.op-m-box-table__item:nth-child(4n) {
+    border-right: none;
+}
+.op-m-box-table__title {
+    font-weight: 700;
+}
+.op-m-box-table__value {
+    font-size: 30px;
+}
+.op-m-box-table__value svg {
+    margin-right: -5px;
+}
+.op-m-box-table__value path {
+    stroke: #222;
+}
+.op-m-box-table__value--negative {
+    color: #CC6666;
+}
+.op-m-box-table__value--negative path {
+    stroke: #CC6666;
+}
+.op-m-box-table__value--positive {
+    color: #60A177;
+}
+.op-m-box-table__value--positive path {
+    stroke: #60A177;
+}
+
+.op-m-box__img {
+    margin-right: 15px;
+    opacity: 0.6;
+}
