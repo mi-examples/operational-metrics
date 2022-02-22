@@ -1,6 +1,0 @@
-region,market,auto_dollars,auto_dollars_last_year,business_lending_dollars,business_lending_dollars_last_year,cons_app_dollars,cons_app_dollars_last_year,credit_card_dollars,credit_card_dollars_last_year
-Eastern,Boston,722M,644M,950M,950M,526M,750M,"2,600M","2,271M"
-Central,Denver,455M,311M,950M,625M,423M,600M,"2,110M","2,150M"
-Western,LA,555M,700M,"2,500M","2,115M",560M,615M,"3,524M","1,930M"
-Western,"San Diego",655M,792M,"2,040M","4,115M",560M,715M,"3,527M","1,940M"
-Western,"San Francisco",355M,901M,"2,010M","5,115M",560M,815M,"2,524M","1,550M"
