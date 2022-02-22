@@ -1,0 +1,512 @@
+<link rel="stylesheet" href="/pt/operational-metrics-v2/style.css">
+<div class="w-wrapper p-main-color-bg">
+    <div class="w-container">
+        <div class="w-title">
+            [Page Title]
+        </div>
+
+        <div class="w-filters__wrap">
+            <div class="w-filters__left">
+
+            </div>
+
+            <div class="w-filters">
+
+                <div class="w-filters__wrap">
+                    <div class="w-filter">
+                        <div class="w-filter__label" id="parent-filter-name"></div>
+                        <div class="custom_select">
+                            <select class="w-select" name="w-parent-select" id="w-parent-select">
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="w-filter">
+                        <div class="w-filter__label" id="children-filter-name"></div>
+                        <div class="custom_select">
+                            <select class="w-select" name="w-children-select" id="w-children-select">
+                                <option value="all">All</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a class="download-btn" href="/pt/operational-metrics-v2/Operational-Metrics-Loans.csv" download>
+                    <svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="MI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Operational-Metrics-01" transform="translate(-1251.000000, -200.000000)" fill="#37809F">
+                                <g id="Filters" transform="translate(138.000000, 164.000000)">
+                                    <g id="btn-Download" transform="translate(1078.000000, 0.000000)">
+                                        <g id="fa-download-color" transform="translate(35.000000, 36.000000)">
+                                            <path d="M0.27576936,14.4957585 C0.44783715,14.6854313 0.672139805,14.7714367 0.93100965,14.7714367 L15.0689903,14.7714367 C15.3278602,14.7714367 15.5521628,14.6854313 15.7242306,14.4957585 C15.9139661,14.3229797 16,14.0995191 16,13.8407349 L16,10.772951 C16,10.5141668 15.9139661,10.2899383 15.7242306,10.1179273 C15.5521628,9.92825461 15.3278602,9.84224915 15.0689903,9.84224915 L10.6205771,9.84224915 L9.31086466,11.1515286 C8.93139373,11.5139802 8.50045609,11.6859911 8.00038408,11.6859911 C7.50031206,11.6859911 7.06937443,11.5139802 6.6899035,11.1515286 L5.39632244,9.84224915 L0.93100965,9.84224915 C0.672139805,9.84224915 0.44783715,9.92825461 0.27576936,10.1179273 C0.0860338951,10.2899383 0,10.5141668 0,10.772951 L0,13.8407349 C0,14.0995191 0.0860338951,14.3229797 0.27576936,14.4957585 L0.27576936,14.4957585 Z M3.25853378,5.96355675 L7.56867829,10.2730443 C7.69004753,10.3936055 7.82754813,10.4627171 8.00038408,10.4627171 C8.17245187,10.4627171 8.31072063,10.3936055 8.43132171,10.2730443 L12.7414662,5.96355675 C12.9312017,5.77388401 12.9826684,5.55042341 12.879735,5.29163914 C12.7591339,5.03285488 12.5693984,4.91229366 12.3105286,4.91229366 L9.84473571,4.91229366 L9.84473571,0.60357399 C9.84473571,0.448457011 9.77636948,0.293340031 9.65500024,0.172010908 C9.53439916,0.0514496913 9.39689855,0 9.22406261,0 L6.77593739,0 C6.6038696,0 6.46560084,0.0514496913 6.34499976,0.172010908 C6.22439867,0.293340031 6.15526429,0.448457011 6.15526429,0.60357399 L6.15526429,4.91229366 L3.68947141,4.91229366 C3.43136972,4.91229366 3.24163426,5.03285488 3.12103317,5.29163914 C3.0173316,5.55042341 3.06879831,5.77388401 3.25853378,5.96355675 L3.25853378,5.96355675 Z M11.6898555,12.306459 C11.8619233,12.306459 12.000192,12.3755705 12.1207931,12.4961317 C12.2413942,12.616693 12.3105286,12.754916 12.3105286,12.9269269 C12.3105286,13.0997057 12.2413942,13.2371609 12.1207931,13.3577221 C12.000192,13.4790512 11.8619233,13.5473948 11.6898555,13.5473948 C11.5346872,13.5473948 11.3795189,13.4790512 11.2589179,13.3577221 C11.1383168,13.2371609 11.0860819,13.0997057 11.0860819,12.9269269 C11.0860819,12.754916 11.1383168,12.616693 11.2589179,12.4961317 C11.3795189,12.3755705 11.5346872,12.306459 11.6898555,12.306459 L11.6898555,12.306459 Z M14.1556484,12.306459 C14.3277162,12.306459 14.4659849,12.3755705 14.586586,12.4961317 C14.7071871,12.616693 14.7763215,12.754916 14.7763215,12.9269269 C14.7763215,13.0997057 14.7071871,13.2371609 14.586586,13.3577221 C14.4659849,13.4790512 14.3277162,13.5473948 14.1556484,13.5473948 C13.9828124,13.5473948 13.8453118,13.4790512 13.7247107,13.3577221 C13.6033415,13.2371609 13.5349753,13.0997057 13.5349753,12.9269269 C13.5349753,12.754916 13.6033415,12.616693 13.7247107,12.4961317 C13.8453118,12.3755705 13.9828124,12.306459 14.1556484,12.306459 L14.1556484,12.306459 Z" id="Fill-253"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="w-announcement" id="w-announcement">
+            <div class="w-announcement-img-box">
+                <div class="w-announcement-title__icon">
+                    <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="MI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Operational-Metrics-01" transform="translate(-171.000000, -308.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g id="np_alert_2649226_000000-copy" transform="translate(171.000000, 308.000000)">
+                                    <path d="M10,19.8854545 C4.55,19.8854545 0.114545455,15.4509091 0.114545455,10 C0.114545455,4.54909091 4.54909091,0.114545455 10,0.114545455 C15.4509091,0.114545455 19.8854545,4.54909091 19.8854545,10 C19.8854545,15.4509091 15.4509091,19.8854545 10,19.8854545 Z M10,1.01659091 C5.04704545,1.01659091 1.01659091,5.04704545 1.01659091,10 C1.01659091,14.9529545 5.04704545,18.9834091 10,18.9834091 C14.9538636,18.9834091 18.9834091,14.9538636 18.9834091,10 C18.9834091,5.04704545 14.9538636,1.01659091 10,1.01659091 Z" id="Shape"></path>
+                                    <path d="M8.80954545,13.3461364 C8.80954545,12.6412273 9.30227273,12.1352045 10.0071591,12.1352045 C10.7120455,12.1352045 11.1781364,12.64125 11.1905682,13.3461364 C11.1905682,14.0377273 10.7253636,14.5570682 10.0071591,14.5570682 C9.28804545,14.5570682 8.80954545,14.0377045 8.80954545,13.3461364 Z M9.249,11.47025 L8.94270455,5.44297727 L11.0582955,5.44297727 L10.7653182,11.47025 L9.249,11.47025 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="w-announcement__content">
+                <div class="w-announcement-title__text--wrapper">
+                    <div class="w-announcement-title__text">
+
+                    </div>
+                    <div class="w-announcement-text">
+
+                    </div>
+                </div>
+
+                <img src="/pt/operational-metrics-v2/img/[Announcement Image]" alt="[Announcement Image]"
+                     class="w-announcement__img">
+            </div>
+        </div>
+
+        <div class="w-kpis">
+            <div class="w-kpis__row" id="kpi-row-1">
+                <div class="w-kpis-title">
+
+                </div>
+                <div class="w-kpis-content__wrap">
+                    <div class="w-kpis-title__text p-main-color-bg">
+
+                    </div>
+                    <div class="w-kpis-content">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-kpis__row" id="kpi-row-2">
+
+                <div class="w-kpis-title">
+
+                </div>
+                <div class="w-kpis-content__wrap">
+                    <div class="w-kpis-title__text">
+
+                    </div>
+                    <div class="w-kpis-content">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-kpis__row" id="kpi-row-3">
+                <div class="w-kpis-title">
+
+                </div>
+                <div class="w-kpis-content__wrap">
+                    <div class="w-kpis-title__text">
+
+                    </div>
+                    <div class="w-kpis-content">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-kpis__row" id="kpi-row-4">
+                <div class="w-kpis-title">
+
+                </div>
+                <div class="w-kpis-content__wrap">
+                    <div class="w-kpis-title__text">
+
+                    </div>
+                    <div class="w-kpis-content">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    class PPBrPrData {
+
+        constructor(rows, rowsElements, parentFilter, childrenFilter) {
+            this.data = [];
+            this.rows = rows;
+            this.rowsElements = rowsElements;
+            this.filters = {};
+            this.parentFilter = parentFilter;
+            this.childrenFilter = childrenFilter;
+            this.parentFilterCol = parentFilter[0]['columnName'];
+            this.childrenFilterCol = childrenFilter[0]['columnName'];
+        }
+
+        init() {
+            const self = this;
+            const prentFilterCol = this.parentFilter[0]['columnName'];
+            const childrenFilterCol = this.childrenFilter[0]['columnName'];
+            const parentFilterName = this.parentFilter[0]['name'];
+            const childrenFilterName = this.childrenFilter[0]['name'];
+
+            $('#parent-filter-name').text(parentFilterName);
+            $('#children-filter-name').text(childrenFilterName);
+
+            try {
+                self.announcment('[Announcement Element ID]', '[Announcement ID]');
+            } catch (e) {
+                console.log(e);
+            }
+
+            for (let i = 0; i < self.rows.length; i++) {
+                self.getRow(self.rows[i], self.rowsElements[i]);
+            }
+            
+            console.log(self.data)
+
+            self.data.forEach(item => {
+                self.fetchDataSet(item.dataset).then(
+                    response => {
+
+                        let data = response.data;
+                        self.addRowsData(item, data);
+                        for (let i = 0; i < data.length; i++) {
+                            self.filters[data[i][prentFilterCol]] = new Set();
+                        }
+                        for (let j = 0; j < data.length; j++) {
+                            let market = self.filters[data[j][prentFilterCol]];
+                            market.add(data[j][childrenFilterCol]);
+                        }
+                    }
+                )
+
+                // item.elements.forEach(el => {
+                //     el.vals.forEach(values => {
+                //         $('.w-kpis-box__defference-val').append(values)
+                //     })
+                // })
+
+
+            });
+
+            const childrenFilters = new Set();
+            Object.values(self.filters).forEach(e => {
+                for (let i of e) {
+                    childrenFilters.add(i);
+                }
+            })
+
+            self.buildFilters(Object.keys(self.filters), childrenFilters);
+
+            self.BuildRows();
+
+            $(document).on('change', '#w-parent-select', function () {
+                let parent = $(this).val();
+                $('#w-children-select').html('');
+                $('#w-children-select').val('');
+
+                $('#w-children-select').append($(`<option value="all">All</option>`));
+                if (parent == 'all') {
+                    Object.values(self.filters).forEach(i => {
+                        for (let item of i) {
+                            let option = $(`<option value="${item}">${item}</option>`);
+                            $('#w-children-select').append(option);
+                        }
+                    })
+                } else {
+                    for (let item of self.filters[parent]) {
+                        let option = $(`<option value="${item}">${item}</option>`);
+                        $('#w-children-select').append(option);
+                    }
+                }
+
+                self.BuildRows();
+
+                self.setCookie('truist-branch-and-premier-data-filters', `parentFilter=${$('#w-parent-select').val()}&childrenFilter=${$('#w-children-select').val()}`);
+            })
+            $(document).on('change', '#w-children-select', function () {
+                self.BuildRows();
+                self.setCookie('truist-branch-and-premier-data-filters', `parentFilter=${$('#w-parent-select').val()}&childrenFilter=${$('#w-children-select').val()}`);
+            });
+
+            const ppFilters = this.getCookie('truist-branch-and-premier-data-filters');
+            if (ppFilters) {
+                self.ApplyFilters(ppFilters);
+            }
+
+            $('body').append('<div id="#added-element-id"></div>')
+        }
+
+        BuildRows() {
+            const self = this;
+
+            self.buildRow($('#w-parent-select').val(), $('#w-children-select').val(), '#kpi-row-1', self.data[0]);
+            self.buildRow($('#w-parent-select').val(), $('#w-children-select').val(), '#kpi-row-2', self.data[1]);
+            self.buildRow($('#w-parent-select').val(), $('#w-children-select').val(), '#kpi-row-3', self.data[2]);
+            self.buildRow($('#w-parent-select').val(), $('#w-children-select').val(), '#kpi-row-4', self.data[3]);
+        }
+
+        buildFilters(parentFilter, childrenFilter) {
+            const parentSelect = $('#w-parent-select');
+            const childrenSelect = $('#w-children-select');
+
+
+            parentFilter.forEach((item) => {
+                let option = $(`<option value="${item}">${item}</option>`);
+                parentSelect.append(option);
+            });
+
+            for (let item of childrenFilter) {
+                let option = $(`<option value="${item}">${item}</option>`);
+                childrenSelect.append(option);
+            }
+        }
+
+        nFormatter(num, digits) {
+            const lookup = [
+                {value: 1, symbol: ""},
+                {value: 1e3, symbol: "K"},
+                {value: 1e6, symbol: "M"},
+                {value: 1e9, symbol: "B"},
+                {value: 1e12, symbol: "T"},
+                {value: 1e15, symbol: "P"},
+                {value: 1e18, symbol: "E"}
+            ];
+            const rx = /\.0+$|(\.[0-9]*[1-9])0+$/;
+            var item = lookup.slice().reverse().find(function (item) {
+                return num >= item.value;
+            });
+            return item ? (num / item.value).toFixed(digits).replace(rx, "$1") + item.symbol : "0";
+        }
+
+        roundToTwo(num) {
+            return +(Math.round(num + "e+2") + "e-2");
+        }
+
+        buildRow(parentSelect, childrenSelect, rowId, row) {
+            const self = this;
+
+            const $row = $(rowId);
+            const rowElms = rowId + ' .w-kpis-content';
+
+            $(rowElms).html('');
+
+            $row.find('img').remove();
+            $row.find('.w-kpis-title').prepend($(`<img src="/pt/operational-metrics-v2/img/${row.img}" src="${row.img}">`));
+            $row.find('.w-kpis-title__text').text(row.title);
+
+            row.elements.forEach(item => {
+                let val = 0;
+                let lastVal = 0;
+
+                item.vals.forEach(item => {
+                    if (parentSelect == item.parentSelect && childrenSelect == item.childrenSelect) {
+                        val = item.value;
+                        // prevVal = item.lastValue;
+                    } else if (parentSelect == item.parentSelect && childrenSelect == 'all' || parentSelect == 'all' && childrenSelect == item.childrenSelect) {
+                        val = val + +item.value;
+                    } else if (parentSelect == 'all' && childrenSelect == 'all') {
+                        val = val + +item.value;
+                    }
+
+                    if(val !== 0) {
+                        lastVal = item.lastValue
+                    }
+                });
+
+
+                self.buildElement(item.title, item.href, val, lastVal, item.is_up_good, item.prefix, rowElms);
+            });
+
+        }
+
+        buildElement(title, href, val, lastVal, isGood, prefix, row) {
+            const self = this;
+
+            let differencePercent = Math.round((val - lastVal) / lastVal * 100) + '% from Last Year';
+
+            const el = $(`<a href="${href}" target="_blank" class="w-kpis-content__col">
+                                <span class="w-kpis-box">
+                                    <span class="w-kpis-box__title">
+                                         ${title}
+                                    </span>
+                                    <span class="w-kpis-box__val">
+
+                                    </span>
+
+                                    <span class="w-kpis-box__defference-val">
+                                        ${differencePercent}
+                                    </span>
+
+                                </span>
+                        </a>`);
+
+
+            val = self.nFormatter(val, 1);
+            el.find('.w-kpis-box__val').append(val);
+            if(isGood === 'yes') {
+                el.find('.w-kpis-box__val').prepend(`<svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M5.213 15.75a.578.578 0 0 1-.432-.165.588.588 0 0 1-.191-.413V7.365H.917C.626 7.26.479 7.19.394 7.115L6.506.434A.595.595 0 0 1 6.933.25a.6.6 0 0 1 .432.19l5.995 5.848c.061.625.074.855.01.95l-4.093.135v7.799c0 .15-.073.297-.191.413Z" stroke-width=".5" fill="none" fill-rule="evenodd"/></svg>`);
+                el.find('.w-kpis-box__val').css('color', '#60A177');
+                el.find('.w-kpis-box__val svg path').css('stroke', '#60A177');
+            } else if (isGood === 'no') {
+                el.find('.w-kpis-box__val').prepend(`<svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.654.25c.172 0 .31.047.431.165.12.116.192.263.192.413v7.807h3.673c.29.105.438.175.523.25l-6.113 6.68a.595.595 0 0 1-.426.185.6.6 0 0 1-.433-.19L.507 9.713c-.061-.625-.075-.855-.01-.95l4.093-.135V.828c0-.15.073-.297.191-.413Z" stroke-width=".5" fill="none" fill-rule="evenodd"/></svg>`);
+                el.find('.w-kpis-box__val').css('color', '#D34839');
+                el.find('.w-kpis-box__val svg path').css('stroke', '#D34839');
+            } else {
+                el.find('.w-kpis-box__val').prepend(`<svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M5.213 15.75a.578.578 0 0 1-.432-.165.588.588 0 0 1-.191-.413V7.365H.917C.626 7.26.479 7.19.394 7.115L6.506.434A.595.595 0 0 1 6.933.25a.6.6 0 0 1 .432.19l5.995 5.848c.061.625.074.855.01.95l-4.093.135v7.799c0 .15-.073.297-.191.413Z" stroke-width=".5" fill="none" fill-rule="evenodd"/></svg>`);
+            }
+
+            $(row).append(el);
+        }
+
+        fetchDataSet(datasetId) {
+
+            return $.ajax({
+                type: 'GET',
+                url: '/api/dataset_data?dataset=' + datasetId,
+                dataType: 'JSON',
+                async: false,
+            }).then(response => {
+                return response;
+            });
+        }
+
+        getRow(row, elements) {
+            const self = this;
+
+            self.data.push({
+                title: row['Title'],
+                img: row['image'],
+                dataset: row['Select dataset'],
+                elements: elements,
+            })
+        }
+
+        addRowsData(row, data) {
+            const self = this;
+
+            const elements = row.elements;
+
+            for (let i = 0; i < elements.length; i++) {
+                elements[i].vals = [];
+                for (let j = 0; j < data.length; j++) {
+                    let column = elements[i]['column'];
+
+                    elements[i].vals.push({
+                        parentSelect: data[j][self.parentFilterCol],
+                        childrenSelect: data[j][self.childrenFilterCol],
+                        value: data[j][column],
+                        lastValue: data[j][column + '_last_year'],
+                    });
+
+                }
+            }
+        }
+
+        announcment(element, id) {
+            $.ajax({
+                type: 'GET',
+                url: '/content/index/announcements?element=' + element,
+                dataType: 'JSON',
+                success: function (response) {
+                    
+                    const annArr = response.announcements;
+                    console.log(annArr)
+
+                    for (let i = 0; i < annArr.length; i++) {
+                        if (annArr[i]['announcement_id'] == id) {
+                            let $text = $($.parseHTML(annArr[i]['html_code']));
+
+                            $('#w-announcement').find('.w-announcement-text').html($text);
+                            $('#w-announcement').find('.w-announcement-title__text').html(annArr[i]['subject']);
+                            $('#w-announcement').addClass('open');
+                            break;
+                        }
+                    }
+                }
+            });
+        }
+
+        ApplyFilters(filterStr) {
+            const filterArr = filterStr.split('&');
+
+            if (filterArr[0].indexOf('=')) {
+                let parFilter = filterArr[0].slice(filterArr[0].indexOf('=') + 1);
+                for (let i = 0; i < $('#w-parent-select option').length; i++) {
+                    if ($('#w-parent-select option').eq(i).val() === parFilter) {
+                        $('#w-parent-select').val(parFilter);
+                        break;
+                    }
+                }
+
+            }
+            $('#w-parent-select').change();
+
+            if (filterArr[1].indexOf('=')) {
+                let chFilter = filterArr[1].slice(filterArr[1].indexOf('=') + 1);
+                for (let i = 0; i < $('#w-children-select option').length; i++) {
+                    if ($('#w-children-select option').eq(i).val() === chFilter) {
+                        $('#w-children-select').val(chFilter);
+                        break;
+                    }
+                }
+            }
+            $('#w-children-select').change();
+        }
+
+        setCookie(cname, cvalue) {
+            document.cookie = cname + "=" + cvalue + ";";
+        }
+
+        getCookie(cname) {
+            let name = cname + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(';');
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+    }
+
+    $(document).ready(function () {
+        const rowsElements = [];
+        rowsElements.push([Row 1 Elements]);
+        rowsElements.push([Row 2 Elements]);
+        rowsElements.push([Row 3 Elements]);
+        rowsElements.push([Row 4 Elements]);
+
+        const ppBrPrData = new PPBrPrData([Rows], rowsElements, [Parent Filter], [Children Filter]);
+        ppBrPrData.init();
+        console.log([Announcement ID])
+
+    })
+
+</script>
+
