@@ -1,0 +1,244 @@
+[
+    {
+        "portal_page_template_tag_id": "484",
+        "portal_page_template_id": "104",
+        "name": "Page Title",
+        "uid": "e8d371f32308c19a31ac",
+        "default_value": "Operational Metrics",
+        "additional_options": "",
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "0",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "N",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "485",
+        "portal_page_template_id": "104",
+        "name": "Rows",
+        "uid": "b798231b34c1226940c9",
+        "default_value": "",
+        "additional_options": [
+            "Title",
+            "image",
+            {
+                "name": "Select dataset",
+                "type": "select",
+                "source": "dataset"
+            }
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "1",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "486",
+        "portal_page_template_id": "104",
+        "name": "Row 1 Elements",
+        "uid": "12a2ae01ff9e5d17cf86",
+        "default_value": "",
+        "additional_options": [
+            "title",
+            "column",
+            "href",
+            {
+                "name": "is_up_good",
+                "type": "select",
+                "options": [
+                    "yes",
+                    "no"
+                ]
+            },
+            "prefix"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "2",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "487",
+        "portal_page_template_id": "104",
+        "name": "Row 2 Elements",
+        "uid": "e70c9c7e871cd1eaf72f",
+        "default_value": "",
+        "additional_options": [
+            "title",
+            "column",
+            "href",
+            {
+                "name": "is_up_good",
+                "type": "select",
+                "options": [
+                    "yes",
+                    "no"
+                ]
+            },
+            "prefix"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "3",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "488",
+        "portal_page_template_id": "104",
+        "name": "Row 3 Elements",
+        "uid": "1b9a311b0f84ca615e1f",
+        "default_value": "",
+        "additional_options": [
+            "title",
+            "column",
+            "href",
+            {
+                "name": "is_up_good",
+                "type": "select",
+                "options": [
+                    "yes",
+                    "no"
+                ]
+            },
+            "prefix"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "4",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "489",
+        "portal_page_template_id": "104",
+        "name": "Row 4 Elements",
+        "uid": "276a84bffe87847fde8b",
+        "default_value": "",
+        "additional_options": [
+            "title",
+            "column",
+            "href",
+            {
+                "name": "is_up_good",
+                "type": "select",
+                "options": [
+                    "yes",
+                    "no"
+                ]
+            },
+            "prefix"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "5",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "490",
+        "portal_page_template_id": "104",
+        "name": "Announcement ID",
+        "uid": "8b74ed52e206eec716b7",
+        "default_value": "",
+        "additional_options": "",
+        "tag_type": "select",
+        "tag_source": "announcement",
+        "javascript_code": "",
+        "display_order": "6",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "N",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "491",
+        "portal_page_template_id": "104",
+        "name": "Announcement Element ID",
+        "uid": "b6b1a0279d401e2fe61c",
+        "default_value": "",
+        "additional_options": "",
+        "tag_type": "select",
+        "tag_source": "element",
+        "javascript_code": "",
+        "display_order": "7",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "N",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "492",
+        "portal_page_template_id": "104",
+        "name": "Announcement Image",
+        "uid": "524aa08c110d3da30e6d",
+        "default_value": "announ.png",
+        "additional_options": "",
+        "tag_type": "file",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "8",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "N",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "493",
+        "portal_page_template_id": "104",
+        "name": "Parent Filter",
+        "uid": "36b098915d23003b867e",
+        "default_value": "",
+        "additional_options": [
+            "name",
+            "columnName"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "9",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    },
+    {
+        "portal_page_template_tag_id": "494",
+        "portal_page_template_id": "104",
+        "name": "Children Filter",
+        "uid": "c1b6a53d1605599f30bb",
+        "default_value": "",
+        "additional_options": [
+            "name",
+            "columnName"
+        ],
+        "tag_type": "text",
+        "tag_source": "static",
+        "javascript_code": "",
+        "display_order": "10",
+        "use_hmtl_editor_ind": "N",
+        "use_json_editor_ind": "N",
+        "json_list_ind": "Y",
+        "description": null
+    }
+]
